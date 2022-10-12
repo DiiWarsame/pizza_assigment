@@ -36,7 +36,47 @@ void main(){
                 ),
               ),
 
+//second container
+              Card(
+                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                margin: EdgeInsets.all(10),
+                color: Colors.red,
+                child: Row(
+                  children: <Widget>[
+                    Image(image: AssetImage('assets/img/pizza.png'),
+                    width: 100,
+                    height: 100,
+                    ),
+                    SizedBox(width: 20),
+                    Text('Extra Pizza at the mission', style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white,
+                      fontSize: 20,
+                    ),)
+                  ],
+                ),
+              ),
 
+//third container
+              Card(
+                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                margin: EdgeInsets.all(10),
+                color: Colors.red,
+                child: Row(
+                  children: <Widget>[
+                    Image(image: AssetImage('assets/img/cococolla.png'),
+                    width: 100,
+                    height: 100,
+                    ),
+                    SizedBox(width: 20),
+                    Text('Cococolla ', style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white,
+                      fontSize: 20,
+                    ),)
+                  ],
+                ),
+              ),
 
             ],
           ),
