@@ -8,6 +8,7 @@ void main(){
       appBar: AppBar(title: Text('Pizza', style: TextStyle(color: Colors.black),
       ),
       backgroundColor: Colors.yellow,
+      centerTitle: true,
       ),
     ),
   ));
