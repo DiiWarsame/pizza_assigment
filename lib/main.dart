@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main(){
@@ -15,6 +14,7 @@ void main(){
         child: Container(
           child: Column(
             children: [
+
               Card(
                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
                 margin: EdgeInsets.all(10),
@@ -33,7 +33,10 @@ void main(){
                     ),)
                   ],
                 ),
-              )
+              ),
+
+
+
             ],
           ),
         ),
